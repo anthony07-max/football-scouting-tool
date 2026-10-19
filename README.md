@@ -29,7 +29,7 @@ sense and would have been good business.
 
 | Source | What it gives | Coverage used |
 |---|---|---|
-| [StatsBomb Open Data](https://github.com/statsbomb/open-data) | Event data: every pass, carry, shot, pressure, duel, etc. with locations; lineups with minutes by position | 2015/16 **Premier League (380 matches), La Liga (380), Serie A (380), Ligue 1 (377)**, all full seasons; **Bundesliga 34 matches** (StatsBomb only released Bayer Leverkusen-related games) |
+| [StatsBomb Open Data](https://github.com/statsbomb/open-data) | Event data: every pass, carry, shot, pressure, duel, etc. with locations; lineups with minutes by position | 2015/16 **Premier League (380 matches), La Liga (380), Serie A (380), Ligue 1 (377)**, all full seasons; **Bundesliga 34 matches** (every released match involves Bayer Leverkusen) |
 | [transfermarkt-datasets](https://github.com/dcaribou/transfermarkt-datasets) (CC0) | Dates of birth, market value history, transfers, appearances | Snapshot current to July 2026; values used are the latest on or before **1 July 2016** |
 
 * **43,044 player-match rows**, 2,513 players from 100 clubs. Raw event files (~3-4 MB per match) are processed on the fly and never stored.
@@ -190,7 +190,7 @@ streamlit run app.py                         # interactive search + radar compar
 
 ## 7. Limitations
 * **One season, nine years old.** The data shows how players performed in 2015/16, not now. The method carries over directly to any season with event data (for example, a club's own Opta, StatsBomb or Wyscout feed).
-* **Bundesliga coverage is partial** (34 matches), so only 16 Bundesliga players (mostly Leverkusen) reach 900 minutes and most Bundesliga players are missing. Players outside the big-five leagues aren't covered at all.
+* **Bundesliga coverage is partial** (34 matches), so only 16 Bundesliga players reach 900 minutes, all from Bayer Leverkusen, and most Bundesliga players are missing. Players outside the big-five leagues aren't covered at all.
 * **Style, not quality.** Cosine similarity compares the *shape* of a profile, so a player who does the same things at a lower volume or standard can still score highly. In practice, combine it with output thresholds and video scouting.
 * **Team context.** Per-90 numbers still reflect team tactics and quality, and possession adjustment only corrects defensive volumes. A small team-mate effect remains (3.7% vs 1.0% chance).
 * **Positions** come from StatsBomb lineups (most minutes played). Players who switched role mid-season get a blended profile.
