@@ -1,0 +1,16 @@
+# Raw/derived StatsBomb and Transfermarkt data: recreate with the scripts in src/
+data/
+# Full per-player table derived from StatsBomb data (recreated by the notebook)
+results/player_profiles_2015_16.csv
+
+# Python / Jupyter
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/

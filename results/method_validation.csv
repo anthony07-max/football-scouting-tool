@@ -1,0 +1,6 @@
+,top-1,top-5,median rank,chance top-1
+"Cosine, z within position (chosen)",0.3667,0.6268,3.0,0.0041
+"Euclidean, z within position",0.3593,0.5976,3.0,0.0041
+Cosine on PCA (90% variance),0.3171,0.5886,4.0,0.0041
+"Cosine, z across all outfield players",0.2886,0.5407,4.0,0.0041
+"Cosine, no possession adjustment",0.3626,0.6366,3.0,0.0041

@@ -1,0 +1,10 @@
+role,players,main positions,strongest traits vs position peers,examples (most minutes)
+Stopper centre-back,160,"CB 135, FB 18","Aerial duels won, Clearances (PAdj), xG per shot","Wes Morgan, Álvaro González, Romain Thomas, Robert Huth, Scott Dann"
+Ball-playing centre-back,125,"CB 120, CM 3","Passes attempted, Pass completion %, Long pass completion %","Toby Alderweireld, Simon Francis, Ashley Williams, Francesco Acerbi, Raúl Albiol"
+Attacking full-back,218,"FB 200, AM/W 8","Crosses, Long passes, Progressive passes","Craig Dawson, Dennis Appiah, Aaron Cresswell, Charlie Daniels, Djibril Sidibé"
+Ball-winning midfielder,157,"CM 139, FB 14","Tackles won (PAdj), Interceptions (PAdj), Clearances (PAdj)","Andrew Surman, Nampalys Mendy, Pedro Mosquera, Elseid Hysaj, Eric Dier"
+Deep-lying playmaker,93,"CM 73, FB 11","Passes attempted, Progressive passes, Passes into box","Mark Noble, Roberto Trashorras, Borja Valero, Jessy Pi, Francesco Magnanelli"
+Pressing box-to-box midfielder,139,"CM 66, AM/W 64","Final-third pressures, Pressures (PAdj), Shots","Darren Fletcher, Julien Féret, Georginio Wijnaldum, Diego Laxalt, Piotr Zieliński"
+Creative playmaker,82,"AM/W 72, CM 6","Key passes, Passes into box, Open-play xA","Ryad Boudebouz, Marek Hamšík, Franco Vázquez, Jonathan Viera, Ross Barkley"
+Dribbling winger,148,"AM/W 126, ST 21","Miscontrols + dispossessed, Dribbles attempted, Progressive carries","Moussa Sissoko, Manuel Pucciarelli, Nicolas de Préville, Anthony Martial, Jony"
+Penalty-box striker,153,"ST 139, AM/W 13","Aerial duels won, Touches in box, Non-penalty xG","Rubén Castro, Harry Kane, Troy Deeney, Romelu Lukaku, Odion Ighalo"
