@@ -29,7 +29,7 @@ sense and would have been good business.
 
 | Source | What it gives | Coverage used |
 |---|---|---|
-| [StatsBomb Open Data](https://github.com/statsbomb/open-data) | Event data: every pass, carry, shot, pressure, duel, etc. with locations; lineups with minutes by position | 2015/16 **Premier League (380 matches), La Liga (380), Serie A (380), Ligue 1 (377)**, all full seasons; **Bundesliga 34 matches** (every released match involves Bayer Leverkusen) |
+| [StatsBomb Open Data](https://github.com/statsbomb/open-data) | Event data: every pass, carry, shot, pressure, duel, etc. with locations; lineups with minutes by position | 2015/16 **Premier League (380 matches), La Liga (380), Serie A (380), Ligue 1 (377 of 380)**; **Bundesliga 34 matches** (every released match involves Bayer Leverkusen) |
 | [transfermarkt-datasets](https://github.com/dcaribou/transfermarkt-datasets) (CC0) | Dates of birth, market value history, transfers, appearances | Snapshot current to July 2026; values used are the latest on or before **1 July 2016** |
 
 * **43,044 player-match rows**, 2,513 players from 100 clubs. Raw event files (~3-4 MB per match) are processed on the fly and never stored.
