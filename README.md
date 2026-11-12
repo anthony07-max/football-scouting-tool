@@ -228,8 +228,7 @@ scouting-tool/
 │   └── scouting.py            # profiles, standardisation, find_similar() + CLI
 ├── figures/                   # all charts (PNG)
 ├── results/                   # validation, roles, case studies, back-test (CSV)
-├── requirements.txt
-└── cv_and_linkedin.md         # CV bullets and LinkedIn post
+└── requirements.txt
 ```
 
 ## Acknowledgements
